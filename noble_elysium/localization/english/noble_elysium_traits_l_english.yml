@@ -1,0 +1,5 @@
+﻿l_english:
+
+ trait_espirit_de_corps:0 "Cop enthusiast"
+ trait_espirit_de_corps_desc:0 "The Amateurish cop is the purest cop"
+ trait_espirit_de_corps_character_desc:0 "A voice in the head of [ROOT.GetCharacter.GetFirstNameNoTooltip] periodically insists that there is more out there than prestiege and subjugation, there is also, apparantly, crime, camaraderie and justice."

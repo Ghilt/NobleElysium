@@ -1,0 +1,50 @@
+espirit_de_corps = {
+	index = 2201
+	physical = yes
+	opposites = {
+		craven
+	}
+	martial = 9
+	prowess = 9
+	
+	attraction_opinion = 10
+	vassal_opinion = 5
+	opposite_opinion = -10
+	same_opinion = 10
+	
+	flag = higher_chance_of_dying_in_battle
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_espirit_de_corps_desc
+			}
+			desc = trait_espirit_de_corps_character_desc
+		}
+	}
+
+	ai_energy = low_positive_ai_value
+	ai_boldness = dominant_positive_ai_value
+	ai_rationality = low_negative_ai_value
+	ai_sociability = low_positive_ai_value
+
+	compatibility = {
+		brave = @pos_compat_high
+		ambitious = @pos_compat_medium
+		rowdy = @pos_compat_medium
+		gallant = @pos_compat_low
+		blademaster_1 = @pos_compat_low
+		blademaster_2 = @pos_compat_low
+		blademaster_3 = @pos_compat_low
+		strategist = @pos_compat_low
+		overseer = @pos_compat_low
+		gallant = @pos_compat_low
+		craven = @neg_compat_high
+		lazy = @neg_compat_medium
+		calm = @neg_compat_low
+		content = @neg_compat_low
+	}
+}

@@ -1,0 +1,27 @@
+﻿83355 = {
+	name = "Murchad"
+	dna = 83355_petty_king_murchad
+	dynasty_house = house_british_isles_briain
+	martial = 8
+	diplomacy = 6
+	intrigue = 8
+	stewardship = 6
+	learning = 6
+	religion = "insular_celtic"
+	culture = "irish"
+	trait = temperate
+	trait = wrathful
+	trait = impatient
+	trait = education_martial_3
+	trait = espirit_de_corps
+	father = 902 #Donnchad son Brian Bóruma
+	1027.1.1 = {
+		birth = "1027.1.1"
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
+	}
+	1068.7.1 = {
+		death = "1068.7.1"
+	}
+}
