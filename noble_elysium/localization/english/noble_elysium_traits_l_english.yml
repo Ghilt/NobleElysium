@@ -1,5 +1,98 @@
 ﻿l_english:
 
- trait_espirit_de_corps:0 "Cop enthusiast"
- trait_espirit_de_corps_desc:0 "The Amateurish cop is the purest cop"
- trait_espirit_de_corps_character_desc:0 "A voice in the head of [ROOT.GetCharacter.GetFirstNameNoTooltip] periodically insists that there is more out there than prestiege and subjugation, there is also, apparantly, crime, camaraderie and justice."
+trait_logic:0 ""
+trait_logic_desc:0 ""
+trait_logic_character_desc:0 ""
+
+trait_encyclopedia:0 ""
+trait_encyclopedia_desc:0 ""
+trait_encyclopedia_character_desc:0 ""
+
+trait_rhetoric:0 ""
+trait_rhetoric_desc:0 ""
+trait_rhetoric_character_desc:0 ""
+
+trait_drama:0 ""
+trait_drama_desc:0 ""
+trait_drama_character_desc:0 ""
+
+trait_conceptualization:0 ""
+trait_conceptualization_desc:0 ""
+trait_conceptualization_character_desc:0 ""
+
+trait_visual_calculus:0 ""
+trait_visual_calculus_desc:0 ""
+trait_visual_calculus_character_desc:0 ""
+
+trait_volition:0 ""
+trait_volition_desc:0 ""
+trait_volition_character_desc:0 ""
+
+trait_inland_empire:0 ""
+trait_inland_empire_desc:0 ""
+trait_inland_empire_character_desc:0 ""
+
+trait_empathy:0 ""
+trait_empathy_desc:0 ""
+trait_empathy_character_desc:0 ""
+
+trait_authority:0 ""
+trait_authority_desc:0 ""
+trait_authority_character_desc:0 ""
+
+trait_espirit_de_corps:0 "Sheriff enthusiast"
+trait_espirit_de_corps_desc:0 "The amateurish sheriff is the purest sheriff"
+trait_espirit_de_corps_character_desc:0 "A voice in the head of [ROOT.GetCharacter.GetFirstNameNoTooltip] periodically insists that there is more out there than prestiege and subjugation, there is also, apparantly, crime, camaraderie and justice."
+
+trait_suggestion:0 ""
+trait_suggestion_desc:0 ""
+trait_suggestion_character_desc:0 ""
+
+trait_endurance:0 ""
+trait_endurance_desc:0 ""
+trait_endurance_character_desc:0 ""
+
+trait_pain_threshold:0 ""
+trait_pain_threshold_desc:0 ""
+trait_pain_threshold_character_desc:0 ""
+
+trait_physical_instrument:0 ""
+trait_physical_instrument_desc:0 ""
+trait_physical_instrument_character_desc:0 ""
+
+trait_electro_chemistry:0 ""
+trait_electro_chemistry_desc:0 ""
+trait_electro_chemistry_character_desc:0 ""
+
+trait_shivers:0 ""
+trait_shivers_desc:0 ""
+trait_shivers_character_desc:0 ""
+
+trait_half_light:0 ""
+trait_half_light_desc:0 ""
+trait_half_light_character_desc:0 ""
+
+trait_hand_eye_coordination:0 ""
+trait_hand_eye_coordination_desc:0 ""
+trait_hand_eye_coordination_character_desc:0 ""
+
+trait_perception:0 ""
+trait_perception_desc:0 ""
+trait_perception_character_desc:0 ""
+
+trait_reaction_speed:0 ""
+trait_reaction_speed_desc:0 ""
+trait_reaction_speed_character_desc:0 ""
+
+trait_savoir_faire:0 ""
+trait_savoir_faire_desc:0 ""
+trait_savoir_faire_character_desc:0 ""
+
+trait_interfacing:0 ""
+trait_interfacing_desc:0 ""
+trait_interfacing_character_desc:0 ""
+
+trait_composure:0 ""
+trait_composure_desc:0 ""
+trait_composure_character_desc:0 ""
+
