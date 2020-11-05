@@ -1,20 +1,20 @@
 ﻿l_english:
 
-trait_logic:0 ""
-trait_logic_desc:0 ""
-trait_logic_character_desc:0 ""
+trait_logic:0 "Logic pursuant"
+trait_logic_desc:0 "Wield raw intellectual power. Deduce the world."
+trait_logic_character_desc:0 "The feelings of [ROOT.GetCharacter.GetFirstNameNoTooltip] melt into nothingness, rationale and deduction takes over."
 
-trait_encyclopedia:0 ""
-trait_encyclopedia_desc:0 ""
-trait_encyclopedia_character_desc:0 ""
+trait_encyclopedia:0 "Factful"
+trait_encyclopedia_desc:0 "Call upon all your knowledge. Produce fascinating trivia."
+trait_encyclopedia_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip]'s mind palace is a vast library full of knowledge. Whether it'd be cooking recipies or torture instructions it is just a mere mental somersault away and the information is brought to the surface."
 
-trait_rhetoric:0 ""
-trait_rhetoric_desc:0 ""
-trait_rhetoric_character_desc:0 ""
+trait_rhetoric:0 "Rhetoric"
+trait_rhetoric_desc:0 "Practice the art of persuasion. Enjoy rigorous intellectual discourse."
+trait_rhetoric_character_desc:0 "Thoughts into words unto other minds. [ROOT.GetCharacter.GetFirstNameNoTooltip] has never, ever, lost an argument. Reality disagrees with that assessment."
 
-trait_drama:0 ""
-trait_drama_desc:0 ""
-trait_drama_character_desc:0 ""
+trait_drama:0 "Thespian"
+trait_drama_desc:0 "Play the actor. Lie and detect lies."
+trait_drama_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] views the world through a lense of drama. Reality and fiction are just two fluids in the same bowl, if a mind insists enough they mix."
 
 trait_conceptualization:0 ""
 trait_conceptualization_desc:0 ""
