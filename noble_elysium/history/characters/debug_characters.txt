@@ -14,6 +14,10 @@
 	trait = impatient
 	trait = education_martial_3
 	trait = espirit_de_corps
+	trait = endurance
+	trait = pain_threshold
+	trait = authority
+	trait = empathy
 	father = 902 #Donnchad son Brian Bóruma
 	1027.1.1 = {
 		birth = "1027.1.1"

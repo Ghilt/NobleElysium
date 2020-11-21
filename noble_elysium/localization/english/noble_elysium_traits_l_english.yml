@@ -50,7 +50,7 @@ trait_suggestion_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] kno
 
 trait_endurance:0 "Endurance"
 trait_endurance_desc:0 "Take the blows. Don’t let the world kill you."
-trait_endurance_character_desc:0 "The world is a cloud whils't [ROOT.GetCharacter.GetFirstNameNoTooltip] is a mountain. No blade cut can hurt [ROOT.GetCharacter.GetHerHim], thrusts can sometimes though."
+trait_endurance_character_desc:0 "The world is a twig whilst [ROOT.GetCharacter.GetFirstNameNoTooltip] is a mountain. As blades cut [ROOT.GetCharacter.GetHerHim] there is just more of [ROOT.GetCharacter.GetHerHim] underneath, body as well as mind."
 
 trait_pain_threshold:0 "Pain Threshold"
 trait_pain_threshold_desc:0 "Shrug off the pain. They’ll have to hurt you more."

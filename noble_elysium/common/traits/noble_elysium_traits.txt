@@ -1,6 +1,13 @@
 logic = {
 	index = 2201
 	physical = yes
+
+	martial = 1
+	intrigue = 1
+	learning = 1
+
+	attraction_opinion = -10
+	stress_gain_mult = 0.2
 	
 	desc = {
 		first_valid = {
@@ -13,11 +20,25 @@ logic = {
 			desc = trait_logic_character_desc
 		}
 	}
+
+	compatibility = {
+		intellect_good_1 = @pos_compat_low
+		intellect_good_2 = @pos_compat_medium
+		intellect_good_3 = @pos_compat_high
+		intellect_good_1 = @neg_compat_low
+		intellect_good_2 = @neg_compat_medium
+		intellect_good_3 = @neg_compat_high
+		arbitrary = @neg_compat_medium
+	}
 }
 
 encyclopedia = {
 	index = 2202
 	physical = yes
+
+	learning = 3
+
+	stress_gain_mult = 0.2
 	
 	desc = {
 		first_valid = {
@@ -30,11 +51,23 @@ encyclopedia = {
 			desc = trait_encyclopedia_character_desc
 		}
 	}
+
+	compatibility = {
+		curious = @pos_compat_high
+		scholar = @pos_compat_high
+		journaller = @pos_compat_medium
+		shrewd = @pos_compat_medium
+		arrogant = @neg_compat_high
+	}
 }
 
 rhetoric = {
 	index = 2203
 	physical = yes
+
+	diplomacy = 3
+
+	stress_gain_mult = 0.2
 	
 	desc = {
 		first_valid = {
@@ -47,11 +80,22 @@ rhetoric = {
 			desc = trait_rhetoric_character_desc
 		}
 	}
+
+	compatibility = {
+		scholar = @pos_compat_high
+		stubborn = @neg_compat_high
+	}
 }
 
 drama = {
 	index = 2204
 	physical = yes
+
+	intrigue = 2
+
+	scheme_discovery_chance_mult = 0.1
+	enemy_personal_scheme_success_chance_add = -10
+	stress_gain_mult = 0.2
 	
 	desc = {
 		first_valid = {
@@ -64,12 +108,22 @@ drama = {
 			desc = trait_drama_character_desc
 		}
 	}
-}
 
+	compatibility = {
+		schemer = @pos_compat_high
+		shy = @neg_compat_high
+		honest = @neg_compat_high
+	}
+}
 
 conceptualization = {
 	index = 2205
 	physical = yes
+
+	martial = 2
+	learning = 1
+
+	stress_gain_mult = 0.2
 	
 	desc = {
 		first_valid = {
@@ -82,12 +136,26 @@ conceptualization = {
 			desc = trait_conceptualization_character_desc
 		}
 	}
+
+	compatibility = {
+		patient = @pos_compat_high
+		flexibile_leader = @neg_compat_high
+		cynical = @neg_compat_high
+		dull = @neg_compat_high
+	}
 }
 
 visual_calculus = {
 	index = 2206
 	physical = yes
-	
+
+	martial = 2
+	prowess = 2
+
+	stress_gain_mult = 0.2
+	enemy_hard_casualty_modifier = 0.1
+	scheme_discovery_chance_mult = 0.1
+
 	desc = {
 		first_valid = {
 			triggered_desc = {
@@ -99,11 +167,21 @@ visual_calculus = {
 			desc = trait_visual_calculus_character_desc
 		}
 	}
+	
+	compatibility = {
+		patient = @pos_compat_low
+		impatient = @neg_compat_medium
+		dull = @neg_compat_medium
+	}
 }
 
 volition = {
 	index = 2207
 	physical = yes
+
+	attraction_opinion = 5
+	health = 0.2
+	stress_loss_mult = 0.3
 	
 	desc = {
 		first_valid = {
@@ -116,11 +194,21 @@ volition = {
 			desc = trait_volition_character_desc
 		}
 	}
+
+	compatibility = {
+		content = @pos_compat_low
+		fickle = @neg_compat_medium
+	}
 }
 
 inland_empire = {
 	index = 2208
 	physical = yes
+
+	diplomacy = 1
+	intrigue = 2
+
+	stress_gain_mult = 0.2
 	
 	desc = {
 		first_valid = {
@@ -133,11 +221,20 @@ inland_empire = {
 			desc = trait_inland_empire_character_desc
 		}
 	}
+
+	compatibility = {
+		lunatic = @pos_compat_high
+		possessed = @pos_compat_medium
+		cynical = @neg_compat_medium
+	}
 }
 
 empathy = {
 	index = 2209
 	physical = yes
+
+	intrigue = -1
+	stress_gain_mult = 0.2
 	
 	desc = {
 		first_valid = {
@@ -150,11 +247,57 @@ empathy = {
 			desc = trait_empathy_character_desc
 		}
 	}
+
+	compatibility = {
+		lisping = @pos_compat_high
+		clubfooted = @pos_compat_high
+		scaly = @pos_compat_high
+		bleeder = @pos_compat_high
+		one_eyed = @pos_compat_high
+		one_legged = @pos_compat_high
+		disfigured = @pos_compat_high
+		scarred = @pos_compat_high
+		rakish = @pos_compat_high
+		maimed = @pos_compat_high
+		infertile = @pos_compat_high
+		wounded_1 = @pos_compat_high
+		wounded_2 = @pos_compat_high
+		wounded_3 = @pos_compat_high
+		infirm = @pos_compat_high
+		incapable = @pos_compat_high
+		blind = @pos_compat_high
+		ill = @pos_compat_high
+		cancer = @pos_compat_high
+		bubonic_plague = @pos_compat_high
+		consumption = @pos_compat_high
+		lovers_pox = @pos_compat_high
+		gout_ridden = @pos_compat_high
+		pneumonic = @pos_compat_high
+		typhus = @pos_compat_high
+		sickly = @pos_compat_high
+		small_pox = @pos_compat_high
+		denounced = @pos_compat_high
+		drunkard = @pos_compat_high
+		contrite = @pos_compat_high
+		melancholic = @pos_compat_high
+		sadistic = @neg_compat_high
+		callous = @neg_compat_high
+	}
 }
 
 authority = {
 	index = 2210
 	physical = yes
+
+	diplomacy = 2
+	stewardship = 2
+
+	vassal_opinion = 5
+	tyranny_gain_mult = -0.1
+	dread_gain_mult = 0.1
+	dread_decay_mult = -0.1
+
+	stress_gain_mult = 0.2
 	
 	desc = {
 		first_valid = {
@@ -167,21 +310,22 @@ authority = {
 			desc = trait_authority_character_desc
 		}
 	}
+
+	compatibility = {
+		content = @pos_compat_high
+		deceitful = @neg_compat_high
+		ambitious = @neg_compat_high
+	}
 }
 
 espirit_de_corps = {
 	index = 2211
 	physical = yes
 
-	martial = 9
-	prowess = 9
-	
-	attraction_opinion = 10
-	vassal_opinion = 5
-	opposite_opinion = -10
-	same_opinion = 10
-	
-	
+	vassal_opinion = 10
+	hostile_scheme_power_mult = 0.5
+	stress_gain_mult = 0.2
+
 	desc = {
 		first_valid = {
 			triggered_desc = {
@@ -194,32 +338,20 @@ espirit_de_corps = {
 		}
 	}
 
-	ai_energy = low_positive_ai_value
-	ai_boldness = dominant_positive_ai_value
-	ai_rationality = low_negative_ai_value
-	ai_sociability = low_positive_ai_value
-
 	compatibility = {
-		brave = @pos_compat_high
-		ambitious = @pos_compat_medium
-		rowdy = @pos_compat_medium
-		gallant = @pos_compat_low
-		blademaster_1 = @pos_compat_low
-		blademaster_2 = @pos_compat_low
-		blademaster_3 = @pos_compat_low
-		strategist = @pos_compat_low
-		overseer = @pos_compat_low
-		gallant = @pos_compat_low
-		craven = @neg_compat_high
-		lazy = @neg_compat_medium
-		calm = @neg_compat_low
-		content = @neg_compat_low
+		honest = @pos_compat_high
+		deceitful = @neg_compat_high
 	}
 }
 
 suggestion = {
 	index = 2212
 	physical = yes
+
+	intrigue = 3 
+	learning = -1 
+
+	stress_gain_mult = 0.2
 	
 	desc = {
 		first_valid = {
@@ -232,11 +364,19 @@ suggestion = {
 			desc = trait_suggestion_character_desc
 		}
 	}
+
+	compatibility = {
+		trusting = @pos_compat_high
+		vengeful = @pos_compat_low
+		stubborn = @neg_compat_high
+	}
 }
 
 endurance = {
 	index = 2213
 	physical = yes
+
+	stress_gain_mult = 0.2
 	
 	desc = {
 		first_valid = {
@@ -254,6 +394,8 @@ endurance = {
 pain_threshold = {
 	index = 2214
 	physical = yes
+
+	stress_gain_mult = 0.2
 	
 	desc = {
 		first_valid = {
@@ -271,6 +413,8 @@ pain_threshold = {
 physical_instrument = {
 	index = 2215
 	physical = yes
+
+	stress_gain_mult = 0.2
 	
 	desc = {
 		first_valid = {
@@ -288,6 +432,8 @@ physical_instrument = {
 electro_chemistry = {
 	index = 2216
 	physical = yes
+
+	stress_gain_mult = 0.2
 	
 	desc = {
 		first_valid = {
@@ -305,6 +451,8 @@ electro_chemistry = {
 shivers = {
 	index = 2217
 	physical = yes
+
+	stress_gain_mult = 0.2
 	
 	desc = {
 		first_valid = {
@@ -322,6 +470,8 @@ shivers = {
 half_light = {
 	index = 2218
 	physical = yes
+
+	stress_gain_mult = 0.2
 	
 	desc = {
 		first_valid = {
@@ -339,6 +489,8 @@ half_light = {
 hand_eye_coordination = {
 	index = 2219
 	physical = yes
+
+	stress_gain_mult = 0.2
 	
 	desc = {
 		first_valid = {
@@ -356,6 +508,8 @@ hand_eye_coordination = {
 perception = {
 	index = 2220
 	physical = yes
+
+	stress_gain_mult = 0.2
 	
 	desc = {
 		first_valid = {
@@ -373,6 +527,8 @@ perception = {
 reaction_speed = {
 	index = 2221
 	physical = yes
+
+	stress_gain_mult = 0.2
 	
 	desc = {
 		first_valid = {
@@ -390,6 +546,8 @@ reaction_speed = {
 savoir_faire = {
 	index = 2222
 	physical = yes
+
+	stress_gain_mult = 0.2
 	
 	desc = {
 		first_valid = {
@@ -407,6 +565,8 @@ savoir_faire = {
 interfacing = {
 	index = 2223
 	physical = yes
+
+	stress_gain_mult = 0.2
 	
 	desc = {
 		first_valid = {
@@ -424,6 +584,8 @@ interfacing = {
 composure = {
 	index = 2224
 	physical = yes
+
+	stress_gain_mult = 0.2
 	
 	desc = {
 		first_valid = {
