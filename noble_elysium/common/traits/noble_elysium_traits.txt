@@ -294,7 +294,7 @@ authority = {
 
 	vassal_opinion = 5
 	tyranny_gain_mult = -0.1
-	dread_gain_mult = 0.1
+	monthly_county_control_change_factor = 0.1
 	dread_decay_mult = -0.1
 
 	stress_gain_mult = 0.2
@@ -324,6 +324,7 @@ espirit_de_corps = {
 
 	vassal_opinion = 10
 	hostile_scheme_power_mult = 0.5
+	owned_hostile_scheme_success_chance_add = 5
 	stress_gain_mult = 0.2
 
 	desc = {
@@ -351,6 +352,7 @@ suggestion = {
 	intrigue = 3 
 	learning = -1 
 
+	owned_personal_scheme_success_chance_add = 10
 	stress_gain_mult = 0.2
 	
 	desc = {
@@ -376,6 +378,10 @@ endurance = {
 	index = 2213
 	physical = yes
 
+	health = 0.5
+	prowess = 3
+
+	attraction_opinion = 10
 	stress_gain_mult = 0.2
 	
 	desc = {
@@ -389,11 +395,21 @@ endurance = {
 			desc = trait_endurance_character_desc
 		}
 	}
+
+	compatibility = {
+		giant = @pos_compat_low
+		physique_good_3 = @pos_compat_low
+		physique_bad_3 = @neg_compat_low
+	}
 }
 
 pain_threshold = {
 	index = 2214
 	physical = yes
+
+	intrigue = 1
+	learning = 1
+	prowess = 4
 
 	stress_gain_mult = 0.2
 	
@@ -408,12 +424,22 @@ pain_threshold = {
 			desc = trait_pain_threshold_character_desc
 		}
 	}
+
+	compatibility = {
+		sadistic = @pos_compat_low
+		brave = @pos_compat_low
+		craven = @neg_compat_low
+	}
 }
 
 physical_instrument = {
 	index = 2215
 	physical = yes
 
+	prowess = 5
+
+	min_combat_roll = 2
+	max_combat_roll = 2
 	stress_gain_mult = 0.2
 	
 	desc = {
@@ -427,12 +453,26 @@ physical_instrument = {
 			desc = trait_physical_instrument_character_desc
 		}
 	}
+
+	compatibility = {
+		blademaster_1 = @pos_compat_medium
+		blademaster_2 = @pos_compat_medium
+		blademaster_3 = @pos_compat_medium
+		hunter_1 = @pos_compat_low
+		hunter_2 = @pos_compat_low
+		hunter_3 = @pos_compat_low
+		craven = @neg_compat_low
+	}
 }
 
 electro_chemistry = {
 	index = 2216
 	physical = yes
 
+	attraction_opinion = 10
+
+	personal_scheme_power_mult = 0.1
+	negate_health_penalty_add = 0.5
 	stress_gain_mult = 0.2
 	
 	desc = {
@@ -446,12 +486,24 @@ electro_chemistry = {
 			desc = trait_electro_chemistry_character_desc
 		}
 	}
+
+	compatibility = {
+		lifestyle_herbalist = @pos_compat_high
+		gregarious = @pos_compat_low
+		zealous = @neg_compat_low
+	}
 }
 
 shivers = {
 	index = 2217
 	physical = yes
 
+	intrigue = 3
+	prowess = 1
+
+	enemy_hostile_scheme_success_chance_add = -10
+	hostile_scheme_resistance_mult = 0.5
+	attraction_opinion = -10
 	stress_gain_mult = 0.2
 	
 	desc = {
@@ -465,12 +517,22 @@ shivers = {
 			desc = trait_shivers_character_desc
 		}
 	}
+
+	compatibility = {
+		paranoid = @pos_compat_high
+		deceitful = @neg_compat_low
+		trusting = @neg_compat_low
+	}
 }
 
 half_light = {
 	index = 2218
 	physical = yes
 
+	vassal_opinion = -20
+	dread_baseline_add = 20
+	dread_decay_mult = -0.2
+	dread_gain_mult = 0.2
 	stress_gain_mult = 0.2
 	
 	desc = {
@@ -483,6 +545,12 @@ half_light = {
 			}
 			desc = trait_half_light_character_desc
 		}
+	}
+
+	compatibility = {
+		callous = @pos_compat_high
+		craven = @neg_compat_low
+		compassionate = @neg_compat_low
 	}
 }
 
